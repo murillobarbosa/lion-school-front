@@ -1,0 +1,60 @@
+/***** FOOTER *****/
+footer {
+    padding-left: 9.6rem;
+    padding-right: 9.6rem;
+    height: 15rem;
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.fa-solid {
+    font-size: 2.5rem;
+}
+
+.text-contact {
+    font-size: 1.6rem;
+}
+
+.copy {
+    font-size: 2rem;
+}
+
+.social {
+    /* background-color: tomato; */
+    display: flex;
+    gap: 2rem;
+}
+
+.social-icon {
+    height: 48px;
+    width: 48px;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    color: white;
+    font-size: 2.5rem;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+.social-icon:hover {
+    transform: scale(1.1);
+    background: #000;
+}

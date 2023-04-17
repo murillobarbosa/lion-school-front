@@ -1,0 +1,114 @@
+<!-- Segunda Tela -->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/course.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/course-students-list.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/2bbeedebb6.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" type="imagem" href="../img/logo-image.png">
+    <title>Lion School</title>
+</head>
+
+<body>
+    <div class="i">
+            <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+    </div>
+    <header>
+        <nav>
+            <!-- função de voltar quando você aperta em algum botão  -->
+            <a href="../../index.html" class="logo-container">
+                <img src="../img/logo-image.png" alt="Logo da Lion School">
+                <span class="logo-text">Lion School</span>
+            </a>
+            <a class="exit-container" href="../../index.html">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <span class="exit-text">Voltar</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="status-container">
+            <div class="status">
+                <select id="select">
+                    <option value="status">Status</option>
+                    <option value="cursando">Cursando</option>
+                    <option value="finalizado">Finalizado</option>
+                </select>
+            </div>
+            <div class="legenda">
+                <span>LEGENDA</span>
+                <div class="legenda-container">
+                    <div class="block blue-block"></div>
+                    <span>Cursando</span>
+                </div>
+                <div class="legenda-container">
+                    <div class="block yellow-block"></div>
+                    <span>Finalizado</span>
+                </div>
+            </div>
+        </div>
+        <div class="title-container">
+            <h2 id="title"></h2>
+        </div>
+        <div id="students"></div>
+    </main>
+    <footer class="r">
+        <div class="contact">
+            <div class="contact-info phone">
+                <i class="fa-solid fa-phone"></i>
+                <span class="text-contact">(11) 4774-4700</span>
+            </div>
+            <div class="contact-info email">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="text-contact">lionschool@gmail.com</span>
+            </div>
+            <div class="contact-info address">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="text-contact">Rua TCC, 211, Centro, Jandira</span>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="text10">
+                <span class="copyright">Copyright &copy; 2023 | Murillo | Moreno </span>
+            </div>
+        </div>
+        <div class="social-container">
+            <ul class="social">
+                <li>
+                    <a class="social-icon yt" href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon tt" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon insta" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon fb" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>

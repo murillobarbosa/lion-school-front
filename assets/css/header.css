@@ -1,0 +1,41 @@
+/***** HEADER *****/
+nav {
+    padding: 1.2rem 9.6rem;
+    height: 10rem;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 15rem;
+}
+
+.logo-text {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.exit-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fa-arrow-right-from-bracket {
+    color: white;
+    font-size: 4rem;
+}
+
+.exit-text {
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 500;
+}

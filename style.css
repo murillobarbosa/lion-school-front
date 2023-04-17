@@ -1,0 +1,185 @@
+/***** MAIN *****/
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.devices-container {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.4rem;
+}
+
+.title {
+    font-size: 7rem;
+    font-weight: 200;
+}
+
+.blue-title {
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.device-image {
+    height: 40rem;
+    width: 50rem;
+}
+
+.girl-image {
+    height: 60rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    background-color: var(--main-color);
+    box-shadow: 12px 12px 4px rgba(51, 71, 176, 0.5);
+    padding: 10rem 16rem;
+    color: white;
+    font-size: 6.4rem;
+    font-weight: 600;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-icon {
+    height: 10rem;
+    filter: brightness(0) invert(1);
+}
+
+
+.i {
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-14em, -9.2em);
+}
+
+@media (max-width: 960px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 26vh;
+    }
+
+    body {
+        display: flex;
+        height: 100%;
+    }
+
+    nav {
+        display: flex;
+        padding: 1.2rem 20.6rem;
+    }
+
+    .logo-container {
+        display: flex;
+        width: 100%;
+        margin-left: 60px;
+        /* transform: translate(130px, 0px); */
+    }
+
+    .exit-container {
+        /* display: flex;
+        margin-left: 15rem;
+        transform: translate(70px, 0px); */
+        display: none;
+    }
+
+    .title {
+        display: grid;
+        position: relative;
+        font-size: 40px;
+        margin-top: -35vh;
+    }
+
+    .device-image {
+        width: 20vh;
+        height: 15vh;
+    }
+
+    .image-b {
+        height: 27rem;
+        margin-top: -50%;
+    }
+
+    .r {
+        display: flex;
+        transform: translate(0px, 30.7em);
+        height: 25rem;
+        width: 59vh;
+    }
+
+    .cards-container {
+        display: flex;
+        transform: translate(-22.1em, 28em);
+        width: 5vh;
+    }
+
+    .contact {
+        transform: translate(-80px, -50px);
+    }
+
+    .copy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-180px, 100px);
+    }
+
+    .text10 {
+        display: flex;
+        font-size: 15px;
+        width: 9em;
+    }
+
+    .social-container {
+        transform: translate(-390px, 55px);
+    }
+
+    .copyright {
+        display: flex;
+        position: fixed;
+        font-size: 15px;
+        width: 50vh;
+        transform: translate(-60px, 0px);
+    }
+
+    .i {
+        display: flex;
+        transform: translate(2.4em, -6.5em);
+    }
+
+    .exit-text {
+        display: none;
+    }
+    .card{
+        display: flex;
+    }
+
+}
