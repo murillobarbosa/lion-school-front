@@ -49,5 +49,5 @@ O Lighthouse é uma ferramenta automatizada que aprimora a qualidade dos apps da
 ---
 ## **Colaboradores**
 - [Guilherme Lima](https://github.com/GuiLima005)  
-- [Miguel Joaquim](https://github.com/migueljoaquim)# lion_school_front
+- [Moreno César](https://github.com/migueljoaquim)# lion_school_front
 # lion-school-front
