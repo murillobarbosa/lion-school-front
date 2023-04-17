@@ -28,7 +28,7 @@ O Lighthouse é uma ferramenta automatizada que aprimora a qualidade dos apps da
 ![](./img/lighthouse.png)
 ---
 ##  **Ferramentas**
-- [link do Figma](https://www.figma.com/file/Emb8kotEeBQBhvwQNZU9J3/Lion-School?node-id=0-1&t=cE4NMpiOYj5l2EI8-0)
+- [link do Figma](https://www.figma.com/file/MsVYmrEaNCZYKawF9Ns6vH/lion_school_front?t=1bt12spHB4S9c8WP-0)
 - GitHub
 - Font Awesome
 - Visual Studio Code
