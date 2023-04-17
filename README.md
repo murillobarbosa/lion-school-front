@@ -5,7 +5,7 @@
 |![](./assets/img/tela.png)|
 |                     |              
 
-[Clique aqui](https://murillobarbosa.github.io/lion_school_front/) para acessar o site!
+[Clique aqui](https://murillobarbosa.github.io/lion-school-front/) para acessar o site!
 
 ## **Sobre** 
 A atividade tem como objetivo integrar as disciplinas de PWFE (Programação web Front-end) e PWBE (Programação web Back-end) do curso de desenvolvimento de sistemas do SENAI Jandira.
